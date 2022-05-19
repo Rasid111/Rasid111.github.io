@@ -112,6 +112,7 @@ main{
     -webkit-animation: turtleappears 1.5s forwards;
     -o-animation: turtleappears 1.5s forwards;
     animation: turtleappears 1.5s forwards;
+    animation-delay: 4s;
 }
 .about_me span{
     display: block;
@@ -238,11 +239,19 @@ main{
     text-align: center;
     font-size: 50px;
     color: #fff;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
 }
 .statistics h4{
     text-align: center;
     font-size: 25px;
-    color: #666;
+    color: #999;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
 }
 .reviews{
     border-bottom: 1px solid #B0E73E;
@@ -404,4 +413,41 @@ main{
     to{
         opacity: 1;
     }
+}
+.send:hover{
+    background-color: #177053;
+    border-color: #86AF31;
+    color: #86AF31;
+}
+.send:active{
+    transform: scale(1.1);
+}
+.lds-dual-ring {
+    margin-right: 50%;
+    margin-left: 50%;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #dfc;
+  border-color: #dfc transparent #dfc transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.everything{
+    display: none;
 }
