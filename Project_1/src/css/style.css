@@ -162,7 +162,6 @@ main{
 .cases{
     padding-top: 20px;
     background-color: #27C894;
-    height: 725px;
     border-bottom: 1px solid #B0E73E;
 }
 .cases h3{
@@ -398,6 +397,10 @@ main{
         margin-left: 200px
     }
 }
+.about_me input{
+    transform: scale(1);
+    transition: all 0.2s;
+}
 .about_me input:hover{
     background-color: #177053;
     border-color: #86AF31;
@@ -414,6 +417,10 @@ main{
         opacity: 1;
     }
 }
+.send{
+    transform: scale(1);
+    transition: all 0.2s;
+}
 .send:hover{
     background-color: #177053;
     border-color: #86AF31;
@@ -425,7 +432,7 @@ main{
 .lds-dual-ring {
     margin-right: 50%;
     margin-left: 50%;
-  display: inline-block;
+  display: none;
   width: 80px;
   height: 80px;
 }
@@ -449,5 +456,5 @@ main{
   }
 }
 .everything{
-    display: none;
+    height: 100%;
 }
