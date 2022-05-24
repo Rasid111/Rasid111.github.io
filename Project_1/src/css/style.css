@@ -14,7 +14,6 @@ nav{
     color:#fff;
     font-size:28px;
     line-height: 60px;
-    padding-left: 300px;
     float: left;
     -webkit-animation: ease coming 2s;
     -o-animation: ease coming 2s;
@@ -22,14 +21,13 @@ nav{
 }
 .menu{
     float: left;
-    padding-left: 400px;
 }
 .menu li{
     float: left;
     margin-right: 40px;
     line-height: 60px;
     color:#fff;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
@@ -333,6 +331,7 @@ main{
     color: white;
     display: inline-block;
     transform: scale(1);
+    text-decoration: none;
 }
 .menu li a:visited{
     color: white;
