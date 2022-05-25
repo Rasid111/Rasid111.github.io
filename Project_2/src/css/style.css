@@ -17,7 +17,27 @@ nav{
 }
 .menu li{
     float: left;
-    color:#fff;
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 60px;
+    margin-right: 40px;
     text-transform: uppercase;
+    transition: all 0.1s;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.1s;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: #555;
+}
+.menu li a:active{
+    transform: scale(1.1);
+}
+.btn-white:visited{
+    color: white;
+}
+.btn-white{
+    color: white;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,36 +11,65 @@
     <meta property="og:title" content="Это моя первая страница...">
     <title>Рашид</title>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-2 col-xl-3">
+                    <div class="col-xxl-3 offset-xxl-1 col-xl-3 col-lg-2 col-6">
                         <div class="logo">
                             Рашид
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-7">
+                    <div class="px-0 col-xxl-6 offset-xxl-2 col-xl-7 offset-xl-2 col-lg-9 offset-lg-1 d-lg-block d-none">
                         <div class="menu">
                             <ul>
                                 <li>
-                                    <a href="#">Обо мне</a>
+                                    <a class="dropdown-item" href="#">Обо мне</a>
                                 </li>
                                 <li>
-                                    <a href="#">Услуги</a>
+                                    <a class="dropdown-item" href="#">Услуги</a>
                                 </li>
                                 <li>
-                                    <a href="#">Кейсы</a>
+                                    <a class="dropdown-item" href="#">Кейсы</a>
                                 </li>
                                 <li>
-                                    <a href="#">Прайс</a>
+                                    <a class="dropdown-item" href="#">Прайс</a>
                                 </li>
                                 <li>
-                                    <a href="#">Отзывы</a>
+                                    <a class="dropdown-item" href="#">Отзывы</a>
                                 </li>
                                 <li>
-                                    <a href="#">Контакты</a>
+                                    <a class="dropdown-item" class="dropdown-item" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-lg-none col-6 d-flex flex-column justify-content-center align-items-end">
+                        <div class="dropdown">
+                            <a class="btn btn-outline-success btn-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ссылка выпадающего списка
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">Обо мне</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Услуги</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Кейсы</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Прайс</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Отзывы</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" class="dropdown-item" href="#">Контакты</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,4 +79,5 @@
         </nav>
     </header>
 </body>
+
 </html>
