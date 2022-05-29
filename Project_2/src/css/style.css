@@ -37,6 +37,25 @@ nav {
     margin-right: 40px;
     text-transform: uppercase;
     transition: all 0.1s;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+}
+.menu li:nth-child(2){
+    animation-delay: 0.1s;
+}
+.menu li:nth-child(3){
+    animation-delay: 0.2s;
+}
+.menu li:nth-child(4){
+    animation-delay: 0.3s;
+}
+.menu li:nth-child(5){
+    animation-delay: 0.4s;
+}
+.menu li:nth-child(6){
+    animation-delay: 0.5s;
 }
 
 .menu li a {
@@ -76,8 +95,9 @@ nav {
     background-position: right;
     border-bottom: 1px solid #B0E73E;
 }
-@media (max-width: 1200px){
-    .main{
+
+@media (max-width: 1200px) {
+    .main {
         background: none;
     }
 }
@@ -87,6 +107,11 @@ nav {
     font-weight: bold;
     color: #9FD039;
     text-shadow: #4B621C 3px 5px 25px;
+    -webkit-animation: titlemove ease 1s forwards;
+    -o-animation: titlemove ease 1s forwards;
+    animation: titlemove ease 1s forwards;
+    animation-delay: 0.25s;
+    opacity: 0;
 }
 
 .main h4 {
@@ -94,6 +119,11 @@ nav {
     font-size: 30px;
     color: #86AF31;
     text-shadow: #384A14 3px 5px 25px;
+    -webkit-animation: titlemove ease 1s forwards;
+    -o-animation: titlemove ease 1s forwards;
+    animation: titlemove ease 1s forwards;
+    animation-delay: 0.25s;
+    opacity: 0;
 }
 
 .main input {
@@ -109,6 +139,11 @@ nav {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 8px;
+    -webkit-animation: titlemove ease 1s forwards;
+    -o-animation: titlemove ease 1s forwards;
+    animation: titlemove ease 1s forwards
+    animation-delay: 0.25s;
+    opacity: 0;
 }
 
 .main input {
@@ -140,8 +175,6 @@ nav {
 }
 
 .miniPic {
-    background: url(../img/Turtle%20square.png);
-    background-position: center;
     border-radius: 10000px
 }
 
@@ -215,5 +248,123 @@ nav {
 .price h4 {
     color: #86AF31;
     font-size: 20px;
-    ;
+}
+
+.stats {
+    background: url(../img/statistika.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stats li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.stats h3 {
+    color: #fff;
+    font-size: 45px;
+    text-shadow: 1px 0 1px #000,
+        0 1px 1px #000,
+        -1px 0 1px #000,
+        0 -1px 1px #000;
+}
+
+.stats h4 {
+    color: #888;
+    font-size: 25px;
+    text-shadow: 1px 0 1px #000,
+        0 1px 1px #000,
+        -1px 0 1px #000,
+        0 -1px 1px #000;
+}
+
+.reviews {
+    border-bottom: 1px solid #B0E73E;
+}
+
+.reviews h4 {
+    text-align: center;
+    color: #86AF31;
+    font-size: 20px;
+}
+
+.contacts > h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contacts li {
+    float: left;
+    text-align: center;
+    color: #666;
+}
+
+.contacts h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.inp {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 7px;
+}
+
+.message {
+    margin-top: 5px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+
+.send {
+    margin-top: 5px;
+    background: none;
+    padding: 3px 2px 3px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    color: #666;
+    margin-bottom: 10px;
+    transform: scale(1);
+    transition: all 0.2s;
+}
+
+.send:hover {
+    background-color: #177053;
+    border-color: #86AF31;
+    color: #86AF31;
+}
+
+.send:active {
+    transform: scale(1.1);
+}
+
+@keyframes titlemove {
+    from {
+        margin-left: -404px;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes topshift {
+    from {
+        opacity: 0;
+        margin-top: -80px;
+    }
+
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
 }
