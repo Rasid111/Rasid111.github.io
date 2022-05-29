@@ -1,3 +1,13 @@
+body{
+    background-color: #177053;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: #9FD039;
+    text-shadow: #384A14 3px 5px 25px;
+    margin-bottom: 30px;
+}
 nav{
     width: 100%;
     height: 60px;
@@ -29,15 +39,142 @@ nav{
     transition: all 0.1s;
     display: inline-block;
 }
+.menu li a:visited{
+    color: #fff;
+}
 .menu li a:hover{
     color: #555;
 }
 .menu li a:active{
     transform: scale(1.1);
+    
 }
 .btn-white:visited{
     color: white;
 }
 .btn-white{
     color: white;
+}
+.main{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background: url(../img/Turtle.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-bottom: 1px solid #B0E73E; 
+}
+.main h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #9FD039;
+    text-shadow: #4B621C 3px 5px 25px;
+}
+.main h4{
+    margin-top: 14px;
+    font-size: 30px;
+    color: #86AF31;
+    text-shadow: #384A14 3px 5px 25px;
+}
+.main input{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    background: none;
+    color: #86AF31;
+    border-radius: 5px;
+    border-color: #86AF31;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:8px;
+}
+.main input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main input:hover{
+    background-color: #27C894;
+    color: white;
+}
+.main input:active{
+    transform: scale(1.1);
+}
+.light{
+    background: #27C894;
+    border-bottom: 1px solid #B0E73E;
+    color: #666;
+}
+.light h2{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 3px 5px 25px;
+    margin-bottom: 20px;
+}
+.miniPic{
+    width: 17%;
+    height: 250px;
+    background: url(../img/Turtle.jpg) -220px;
+    border-radius: 10000px
+}
+.about_me span{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+.what_i_can{
+    border-bottom: 1px solid #B0E73E;
+}
+.what_i_can li{
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+.what_i_can h3{
+    color: #86AF31;
+    font-size: 27px;
+}
+.what_i_can h4{
+    color: #86AF31;
+    font-size: 18px;
+}
+.cases{
+    text-align: center;
+}
+.cases>span{
+    font-size: 20px;
+}
+.rectangle{
+    background: #fff;
+    height: 450px;
+}
+.cases h3{
+    text-align: left;
+    color: #fff;
+}
+.cases h4{
+    text-align: left;
+}
+.price{
+    border-bottom: 1px solid #B0E73E;
+}
+.price h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #86AF31;
+}
+.price select{
+    width: 100%;
+    background: none;
+    font-size: 15px;
+    color: #94AA66;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #86AF31;
+}
+.price h4{
+    color: #86AF31;
+    font-size: 20px;;
 }
