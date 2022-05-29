@@ -1,14 +1,16 @@
-body{
+body {
     background-color: #177053;
 }
-h2{
+
+h2 {
     font-size: 50px;
     text-align: center;
     color: #9FD039;
     text-shadow: #384A14 3px 5px 25px;
     margin-bottom: 30px;
 }
-nav{
+
+nav {
     width: 100%;
     height: 60px;
     background: #27C894;
@@ -16,16 +18,19 @@ nav{
     border-bottom: 1px solid #B0E73E;
     z-index: 1;
 }
-.logo{
-    color:#fff;
-    font-size:28px;
+
+.logo {
+    color: #fff;
+    font-size: 28px;
     line-height: 60px;
     float: left;
 }
-.menu{
+
+.menu {
     float: left;
 }
-.menu li{
+
+.menu li {
     float: left;
     font-size: 15px;
     line-height: 60px;
@@ -33,50 +38,65 @@ nav{
     text-transform: uppercase;
     transition: all 0.1s;
 }
-.menu li a{
+
+.menu li a {
     color: #fff;
     text-decoration: none;
     transition: all 0.1s;
     display: inline-block;
 }
-.menu li a:visited{
+
+.menu li a:visited {
     color: #fff;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #555;
 }
-.menu li a:active{
+
+.menu li a:active {
     transform: scale(1.1);
-    
+
 }
-.btn-white:visited{
+
+.btn-white:visited {
     color: white;
 }
-.btn-white{
+
+.btn-white {
     color: white;
 }
-.main{
+
+.main {
     width: 100%;
     color: #fff;
     text-align: center;
     background: url(../img/Turtle.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    border-bottom: 1px solid #B0E73E; 
+    border-bottom: 1px solid #B0E73E;
 }
-.main h1{
+@media (max-width: 1200px){
+    .main{
+        background: none;
+    }
+}
+
+.main h1 {
     font-size: 70px;
     font-weight: bold;
     color: #9FD039;
     text-shadow: #4B621C 3px 5px 25px;
 }
-.main h4{
+
+.main h4 {
     margin-top: 14px;
     font-size: 30px;
     color: #86AF31;
     text-shadow: #384A14 3px 5px 25px;
 }
-.main input{
+
+.main input {
     height: 40px;
     width: 100px;
     text-align: center;
@@ -88,84 +108,101 @@ nav{
     font-size: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top:8px;
+    margin-top: 8px;
 }
-.main input{
+
+.main input {
     transition: all 0.2s;
     transform: scale(1);
 }
-.main input:hover{
+
+.main input:hover {
     background-color: #27C894;
     color: white;
 }
-.main input:active{
+
+.main input:active {
     transform: scale(1.1);
 }
-.light{
+
+.light {
     background: #27C894;
     border-bottom: 1px solid #B0E73E;
     color: #666;
 }
-.light h2{
+
+.light h2 {
     font-size: 50px;
     text-align: center;
     color: #fff;
     text-shadow: #000 3px 5px 25px;
     margin-bottom: 20px;
 }
-.miniPic{
-    width: 17%;
-    height: 250px;
-    background: url(../img/Turtle.jpg) -220px;
+
+.miniPic {
+    background: url(../img/Turtle%20square.png);
+    background-position: center;
     border-radius: 10000px
 }
-.about_me span{
+
+.about_me span {
     margin-top: 15px;
     text-align: center;
     font-size: 16px;
 }
-.what_i_can{
+
+.what_i_can {
     border-bottom: 1px solid #B0E73E;
 }
-.what_i_can li{
+
+.what_i_can li {
     text-align: center;
     float: left;
-    width: 25%;
 }
-.what_i_can h3{
+
+.what_i_can h3 {
     color: #86AF31;
     font-size: 27px;
 }
-.what_i_can h4{
+
+.what_i_can h4 {
     color: #86AF31;
     font-size: 18px;
 }
-.cases{
+
+.cases {
     text-align: center;
 }
-.cases>span{
+
+.cases > span {
     font-size: 20px;
 }
-.rectangle{
+
+.rectangle {
     background: #fff;
     height: 450px;
 }
-.cases h3{
+
+.cases h3 {
     text-align: left;
     color: #fff;
 }
-.cases h4{
+
+.cases h4 {
     text-align: left;
 }
-.price{
+
+.price {
     border-bottom: 1px solid #B0E73E;
 }
-.price h3{
+
+.price h3 {
     font-size: 25px;
     text-transform: uppercase;
     color: #86AF31;
 }
-.price select{
+
+.price select {
     width: 100%;
     background: none;
     font-size: 15px;
@@ -174,7 +211,9 @@ nav{
     border-radius: 5px;
     border-color: #86AF31;
 }
-.price h4{
+
+.price h4 {
     color: #86AF31;
-    font-size: 20px;;
+    font-size: 20px;
+    ;
 }
