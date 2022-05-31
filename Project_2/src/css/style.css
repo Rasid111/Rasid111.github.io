@@ -94,6 +94,11 @@ nav {
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 1px solid #B0E73E;
+    -webkit-animation: titlemove ease 1s forwards;
+    -o-animation: titlemove ease 1s forwards;
+    animation: titlemove ease 1s forwards;
+    animation-delay: 0.25s;
+    opacity: 0;
 }
 
 @media (max-width: 1200px) {
@@ -107,11 +112,6 @@ nav {
     font-weight: bold;
     color: #9FD039;
     text-shadow: #4B621C 3px 5px 25px;
-    -webkit-animation: titlemove ease 1s forwards;
-    -o-animation: titlemove ease 1s forwards;
-    animation: titlemove ease 1s forwards;
-    animation-delay: 0.25s;
-    opacity: 0;
 }
 
 .main h4 {
@@ -119,11 +119,6 @@ nav {
     font-size: 30px;
     color: #86AF31;
     text-shadow: #384A14 3px 5px 25px;
-    -webkit-animation: titlemove ease 1s forwards;
-    -o-animation: titlemove ease 1s forwards;
-    animation: titlemove ease 1s forwards;
-    animation-delay: 0.25s;
-    opacity: 0;
 }
 
 .main input {
@@ -139,11 +134,6 @@ nav {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 8px;
-    -webkit-animation: titlemove ease 1s forwards;
-    -o-animation: titlemove ease 1s forwards;
-    animation: titlemove ease 1s forwards
-    animation-delay: 0.25s;
-    opacity: 0;
 }
 
 .main input {
