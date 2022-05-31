@@ -94,11 +94,6 @@ nav {
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 1px solid #B0E73E;
-    -webkit-animation: titlemove ease 1s forwards;
-    -o-animation: titlemove ease 1s forwards;
-    animation: titlemove ease 1s forwards;
-    animation-delay: 0.25s;
-    opacity: 0;
 }
 
 @media (max-width: 1200px) {
@@ -148,6 +143,14 @@ nav {
 
 .main input:active {
     transform: scale(1.1);
+}
+
+.title_container{
+    -webkit-animation: titlemove ease 1s forwards;
+    -o-animation: titlemove ease 1s forwards;
+    animation: titlemove ease 1s forwards;
+    animation-delay: 0.25s;
+    opacity: 0;
 }
 
 .light {
