@@ -1,25 +1,15 @@
-let  price = {
-    feature1: 0,
-    feature2: 0,
-    feature3: 0,
-    getFeatures: function () {
-        this.feature1 = prompt("Характеристика 1 1) Вариант 1 2) Вариант 2 3) Вариант 3");
-        this.feature2 = prompt("Характеристика 2 1) Вариант 1 2) Вариант 2 3) Вариант 3");
-        this.feature3 = prompt("Характеристика 3 1) Вариант 1 2) Вариант 2 3) Вариант 3");
-    }
-    let prices1 = [[11, 12, 13][21, 22, 23][31, 32, 33]];
-    let prices2 = [1, 2, 3];
-    totalPrice: function () {
-        return.this.prices1[this.feature1][this.feature2] + this.prices2[this.feature3] s;
-    }
+let totalPrice = 0;
+let feature1 = 0;
+let feature2 = 0;
+let feature3 = 0;
+let prices = [[[[111], [112], [113]], [[121], [122], [123]], [[131], [132], [133]]], [[[211], [212], [213]], [[221], [222], [223]], [[231], [232], [233]]], [[[311], [312], [313]], [[321], [322], [323]], [[331], [332], [333]]];
+function getFeatures() {
+            feature1 = parseInt(prompt("Число от 1 до 3"));
+            feature2 = parseInt(prompt("Число от 1 до 3"));
+            feature3 = parseInt(prompt("Число от 1 до 3"));
 }
-
-price.getFeatures();
-alert("Итоговая цена = " + price.totalPrice);
-
-$('a[href^="#"]').click(function () {
-    let valHref = $(this).attr("href");
-    $('html, body').animate({
-        scrollTop: $(valHref).offset().top - 60 + "px"
-    });
-});
+fuction getPrice() {
+              return prices[feature1][feature2][feature3];
+}
+getFeatures();
+getPrices();
